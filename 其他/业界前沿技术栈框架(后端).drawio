@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T18:03:42.655Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="fzUBDZMLKgXnEyLnGnaB" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T18:06:47.142Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="YVIUY9ycFhyzccxQ61jI" version="18.1.2" type="github">
   <diagram id="xjabfp815dfv-7CEwPIz" name="第 1 页">
-    <mxGraphModel dx="1221" dy="640" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,14 +100,14 @@
         <mxCell id="B-eby6DjghB-gaP1Cl-w-86" value="熔断降级(Hystrix)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="100" y="1197" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B-eby6DjghB-gaP1Cl-w-87" value="定时任务(Scheduled、Quartz、xxl-Job)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="100" y="1377" width="140" height="50" as="geometry" />
+        <mxCell id="B-eby6DjghB-gaP1Cl-w-87" value="分布式配置中心(Config、Apollo)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="100" y="1257" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B-eby6DjghB-gaP1Cl-w-88" value="&amp;nbsp;链路追踪(Zipkin+Sleuth)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="B-eby6DjghB-gaP1Cl-w-88" value="消息总线(Bus，结合Config用)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="100" y="1317" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-89" value="其他缓存(ehcache、Mybatis缓存)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="100" y="1257" width="140" height="50" as="geometry" />
+          <mxGeometry x="100" y="1377" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-90" value="接口限流(Sentinel、Guava的RateLimiter、Redis+Interseptor)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="100" y="1437" width="140" height="50" as="geometry" />
