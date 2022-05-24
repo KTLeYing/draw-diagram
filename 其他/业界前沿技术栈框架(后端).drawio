@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T17:06:54.914Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="tM48UGjRUukUZOSXwkmk" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T17:08:14.883Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="-StnL2uNwsY3FC3SyCyh" version="18.1.2" type="github">
   <diagram id="xjabfp815dfv-7CEwPIz" name="第 1 页">
     <mxGraphModel dx="1422" dy="734" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="B-eby6DjghB-gaP1Cl-w-66" value="统一异常处理" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="600" y="310" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B-eby6DjghB-gaP1Cl-w-67" value="日志打印收集" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="B-eby6DjghB-gaP1Cl-w-67" value="日志打印收集(logback)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="600" y="370" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-68" value="验证码(图形、短信、邮件)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
