@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T03:09:11.476Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="QKF7a7vQOFLO-xIaH30f" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T03:18:28.935Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="aEwIUQaZWENmShEMYyIg" version="18.1.2" type="github">
   <diagram id="xjabfp815dfv-7CEwPIz" name="第 1 页">
-    <mxGraphModel dx="1038" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,32 +106,35 @@
         <mxCell id="B-eby6DjghB-gaP1Cl-w-88" value="消息总线(Bus，结合Config用)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="600" y="897" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B-eby6DjghB-gaP1Cl-w-89" value="服务健康检查(Actuator+AdminUI:)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="B-eby6DjghB-gaP1Cl-w-89" value="服务健康检查(Actuator+AdminUI)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="600" y="957" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-90" value="系统性能监控(Prometheus+Grafana)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="600" y="1017" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-91" value="&lt;div&gt;日志收集(&lt;span style=&quot;background-color: initial;&quot;&gt;ELK)&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="600" y="1087" width="140" height="50" as="geometry" />
+          <mxGeometry x="600" y="1077" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-92" value="链路追踪(Zipkin+Sleuth、Skywalking)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="100" y="1257" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-93" value="分布式任务调度平台(xxl-job、elastic-job)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="600" y="1160" width="140" height="50" as="geometry" />
+          <mxGeometry x="600" y="1137" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-94" value="认证授权(OAuth2+Spring Security+Redis)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="600" y="1230" width="140" height="55" as="geometry" />
+          <mxGeometry x="600" y="1192" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-102" value="等等..." style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="600" y="1307" width="140" height="50" as="geometry" />
+          <mxGeometry x="600" y="1320" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-103" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=19;fillColor=#D4E1F5;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="270" y="927" width="80" height="423" as="geometry" />
         </mxCell>
         <mxCell id="B-eby6DjghB-gaP1Cl-w-104" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=19;fillColor=#D4E1F5;gradientColor=none;size=0.5;" parent="1" vertex="1">
           <mxGeometry x="500" y="917" width="80" height="433" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-2" value="在开源组件上二次封装(开箱即用，不满足特殊业务)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="1260" width="140" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
