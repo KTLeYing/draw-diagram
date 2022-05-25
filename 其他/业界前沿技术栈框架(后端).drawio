@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T03:20:18.912Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="248RoCpoFnv_D-lK-Rr_" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T04:16:29.102Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="k8u1_MaYCZQXUsHDdivC" version="18.1.2" type="github">
   <diagram id="xjabfp815dfv-7CEwPIz" name="第 1 页">
-    <mxGraphModel dx="1038" dy="544" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,54 @@
         </mxCell>
         <mxCell id="qX1oAx2zZXkZuFccFnVz-2" value="在开源组件上二次封装(开箱即用，不满足特殊业务)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="600" y="1260" width="140" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-3" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;Dubbo&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;strokeColor=#6c8ebf;fontStyle=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="371" y="1626.5" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-5" value="分布式限流(内置组件配置)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="113" y="1453" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-6" value="服务注册与发现(Nacos、zookeeper)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="1513" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-8" value="负载均衡(内置组件配置)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="1573" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-9" value="熔断降级(内置组件配置)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="1633" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-10" value="分布式配置中心(Apollo)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="113" y="1754" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-13" value="系统性能监控(Prometheus+Grafana)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="1590" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-15" value="链路追踪(Cat、Skywalking)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="113" y="1693" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-16" value="分布式任务调度平台(xxl-job、elastic-job)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="1656.5" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-17" value="认证授权(OAuth2+Spring Security+Redis)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="1518" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-18" value="等等..." style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="1810" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=19;fillColor=#D4E1F5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="283" y="1483" width="80" height="357" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-20" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=19;fillColor=#D4E1F5;gradientColor=none;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="513" y="1473" width="80" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-21" value="在开源组件上二次封装(开箱即用，不满足特殊业务)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="1730" width="140" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-22" value="服务管控(dubbo-admin、Cat)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="1450" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-23" value="&lt;div&gt;日志收集(&lt;span style=&quot;background-color: initial;&quot;&gt;ELK)&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="113" y="1810" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
