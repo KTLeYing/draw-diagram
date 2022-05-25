@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T04:31:09.950Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="b2wmjkkuIpwTCEH9GJ_3" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T04:31:51.657Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="gCow_JfUlzUvGfjo-o87" version="18.1.2" type="github">
   <diagram id="xjabfp815dfv-7CEwPIz" name="第 1 页">
     <mxGraphModel dx="1038" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
         <mxCell id="qX1oAx2zZXkZuFccFnVz-5" value="分布式限流(内置组件配置)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="113" y="1453" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qX1oAx2zZXkZuFccFnVz-6" value="服务注册与发现(Nacos、zookeeper)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="qX1oAx2zZXkZuFccFnVz-6" value="服务注册与发现(zookeeper、Nacos)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="110" y="1513" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qX1oAx2zZXkZuFccFnVz-8" value="负载均衡(内置组件配置)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;strokeColor=none;fontStyle=1" vertex="1" parent="1">
